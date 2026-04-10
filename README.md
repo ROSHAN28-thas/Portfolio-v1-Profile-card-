@@ -91,6 +91,9 @@
     <a href="https://github.com/ROSHAN28-thas" target="_blank">
         <button>My GitHub</button>
     </a>
+    <a href="https://www.linkedin.com/in/roshan-thaspiha-b58891388?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    <button>My LinkedIn</button>
+</a>
 
 </div>
 
