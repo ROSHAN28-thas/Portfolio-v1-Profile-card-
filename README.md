@@ -8,19 +8,18 @@
             margin: 0;
             font-family: Arial;
             background: linear-gradient(to right, #6a11cb, #2575fc);
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            text-align: center;
-            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         .card {
             background: white;
             padding: 20px;
             border-radius: 15px;
+            width: 300px;
+            text-align: center;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
 
@@ -62,40 +61,36 @@
 
 <body>
 
-<div class="container">
+<div class="card">
 
-    <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Profile">
 
-        <img src="https://via.placeholder.com/120" alt="Profile">
+    <h1>Roshan Thaspiha</h1>
+    <p>CSE Student | Web Developer</p>
 
-        <h1>Roshan Thaspiha</h1>
-        <p>CSE Student | Web Developer</p>
+    <h2>About Me</h2>
+    <p>I am a first year CSE student passionate about web development and building websites.</p>
 
-        <h2>About Me</h2>
-        <p>I am a first year CSE student passionate about web development and building websites.</p>
-
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>C</span>
-            <span>Python</span>
-            <span>Java</span>
-            <span>HTML</span>
-            <span>CSS</span>
-        </div>
-
-        <h2>Hobbies</h2>
-        <p>Learning coding, listening to music</p>
-
-        <h2>Contact</h2>
-        <p>Email: roshana.ug.25.cs@francisxavier.ac.in</p>
-
-        <br>
-
-        <a href="https://github.com/ROSHAN28-thas">
-            <button>My GitHub</button>
-        </a>
-
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>C</span>
+        <span>Python</span>
+        <span>Java</span>
+        <span>HTML</span>
+        <span>CSS</span>
     </div>
+
+    <h2>Hobbies</h2>
+    <p>Learning coding, listening to music</p>
+
+    <h2>Contact</h2>
+    <p>Email: roshana.ug.25.cs@francisxavier.ac.in</p>
+
+    <br>
+
+    <a href="https://github.com/ROSHAN28-thas" target="_blank">
+        <button>My GitHub</button>
+    </a>
 
 </div>
 
