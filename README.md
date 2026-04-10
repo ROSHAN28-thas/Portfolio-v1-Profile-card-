@@ -1,85 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Profile Card</title>
+    <title>Thaspiha Portfolio</title>
 
     <style>
         body {
-            background: linear-gradient(to right, #667eea, #764ba2);
+            margin: 0;
             font-family: Arial;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
         }
 
         .card {
             background: white;
             padding: 20px;
             border-radius: 15px;
-            width: 300px;
-            text-align: center;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
 
         img {
-            width: 100px;
+            width: 120px;
             border-radius: 50%;
         }
 
+        h1 {
+            color: #333;
+        }
+
         h2 {
-            margin: 10px 0;
-        }
-
-        p {
-            color: gray;
-        }
-
-        .skills {
-            margin: 10px 0;
+            color: #555;
         }
 
         .skills span {
             background: #eee;
-            padding: 5px 10px;
-            border-radius: 8px;
-            margin: 3px;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 10px;
             display: inline-block;
         }
 
         button {
-            margin-top: 10px;
-            padding: 10px;
+            padding: 10px 15px;
             border: none;
-            background: #667eea;
+            background: #2575fc;
             color: white;
             border-radius: 8px;
             cursor: pointer;
         }
 
         button:hover {
-            background: #5a67d8;
+            background: #1a5ed8;
         }
     </style>
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
-    <img src="https://via.placeholder.com/100" alt="Profile">
+    <div class="card">
 
-    <h2>Roshan Thaspiha</h2>
-    <p>CSE Student | Web Developer</p>
+        <img src="https://via.placeholder.com/120" alt="Profile">
 
-    <div class="skills">
-        <span>C</span>
-        <span>Python</span>
-        <span>Java</span>
-        <span>HTML</span>
+        <h1>Roshan Thaspiha</h1>
+        <p>CSE Student | Web Developer</p>
+
+        <h2>About Me</h2>
+        <p>I am a first year CSE student passionate about web development and building websites.</p>
+
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>C</span>
+            <span>Python</span>
+            <span>Java</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+
+        <h2>Hobbies</h2>
+        <p>Learning coding, listening to music</p>
+
+        <h2>Contact</h2>
+        <p>Email: roshana.ug.25.cs@francisxavier.ac.in</p>
+
+        <br>
+
+        <a href="https://github.com/yourusername">
+            <button>My GitHub</button>
+        </a>
+
     </div>
-
-    <button>Contact Me</button>
 
 </div>
 
